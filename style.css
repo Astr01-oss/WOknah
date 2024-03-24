@@ -76,6 +76,7 @@ body{
     vertical-align: middle;
 }
 .characters__item{
+    margin-top: 100px;
     text-align: center;
     margin-right: 70px;
     font-family: Glory,;
@@ -83,4 +84,72 @@ body{
     font-weight: 500;
     line-height: 22px;
     letter-spacing: 0em;
+}
+/* PRICE */
+.price{
+    background: linear-gradient(180deg, #20211D 0%, #000000 201%);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.price__container{
+    display: flex;
+    margin-top: 200px;
+}
+#img1{
+    margin-bottom: 52px;
+}
+.price__card{
+    margin-right: 25px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 443px;
+    height: 582px;
+}
+.price_card_v .price__card{
+    width: 410px;
+    height: 264px;
+}
+.price__card h3{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    font-family: JejuHallasan, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24.14px;
+    text-align: left;
+}
+.price__card img{
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+#h31{
+    bottom: 30px;
+}
+#h32{
+    bottom: -10px;
+}
+.price__pr{
+    display: flex;
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+    rotate: -46deg;
+    font-family: Anonymous Pro, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    background: #52583F;
+    height: 46px;
+    width: 232px;
+    right: -70px;
+    justify-content: center;
+}
+.price__pr h4{
+    position: absolute;
+    top: -20px;
 }
